@@ -78,10 +78,10 @@ async function start(){
             comboLocalList.persoon = naamV2[0].name;
             comboLocalList.plaats = naamV2[0].plaats;
             comboLocalList.date = laatsteDate.date;
-        } else {
-            comboLocalList.persoon = naamV2[1].name;
-            comboLocalList.plaats = naamV2[1].plaats;
-            comboLocalList.date = laatsteDate.date;
+        }
+
+        if(comboV2.length != 0){
+            console.log("lol tis soort van aant werken")
         }
         console.log(comboV2.length);
         console.log(comboLocalList)
